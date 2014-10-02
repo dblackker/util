@@ -1,0 +1,5 @@
+# restarts the unix desktop
+unity
+
+# Resets the network connection
+sudo service network-manager restart
