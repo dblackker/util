@@ -11,7 +11,10 @@ alias ean='emulator -avd Nexus_5X_API_23'
 alias rnra='react-native run-android'
 alias rnri='react-native run-ios'
 alias oas='open -a /Applications/Android\ Studio.app'
+alias adbfa='adb shell setprop log.tag.FA VERBOSE; adb shell setprop log.tag.FA-SVC VERBOSE; adb logcat -v time -s FA FA-SVC;'
+# Customize to your needs...
 
+# Add adb
 export ANDROID_HOME=/Users/dblack/Library/Android/sdk/
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=$PATH:/Users/dblack/Library/Android/sdk/platform-tools/:/Users/dblack/Library/Android/sdk/tools/:/Users/dblack/Downloads/j2objc-1.0.2/:/usr/local/go/bin
